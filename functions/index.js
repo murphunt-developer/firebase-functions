@@ -1,7 +1,7 @@
 const {setGlobalOptions} = require('firebase-functions');
 const logger = require('firebase-functions/logger');
 const {onRequest} = require('firebase-functions/https');
-const {onDocumentWritten, onDocumentCreated} = require('firebase-functions/v2/firestore');
+const {onDocumentCreated} = require('firebase-functions/v2/firestore');
 
 // firebase Admin SDK to access firestore
 const {initializeApp} = require('firebase-admin/app');
